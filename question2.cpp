@@ -1,10 +1,11 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 //                         COMPUTER METHODS 3 PRACTICAL TEST 1 (MOCK)
-// Name:
-// Student No:
-// Date: 
+// Name:Bongani Ngobese
+// Student No:214513896
+// Date: 28/03/2016
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 #include <iostream>
+#include "Time.h"
 
 using namespace std;
 
@@ -27,7 +28,7 @@ int main(int argc, char *argv[]) {
 
 	myTime.set(10, 30);									// change the time
 
-	int hours, mins;									// get changed time
+	static int hours, mins;									// get changed time
 	myTime.get(hours, mins);
 	cout << "Design 1 starts at " << mins << " past " << hours;   // display time in another format
 
